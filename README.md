@@ -6,7 +6,7 @@ convolution.cu is a series of blurring functions implemented via: cpu only, open
 blurring.cu is an extension using gpu to perform gaussian blurring at various levels to show the speed and strength of the gpu for this use case.
 
 Each file is meant to show a variety of attempts at blurring. 
-Where convolution.cu applies different methods of blurring.
+Here convolution.cu applies different methods of blurring.
 1) Only the cpu's power to blur the image. 
 2) opencv uses an open library that is quite effective for this task.
 3) The gpu version uses only the gpu to apply the blur (a basic function to call the gpu only).
